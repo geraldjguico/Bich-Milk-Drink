@@ -1,0 +1,283 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	color: white;
+	text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+}
+
+p {
+	color: #8f8f8f;
+}
+
+a {
+	color: #f5c5b5;
+}
+
+a:hover {
+	color: #f7e0d8;
+}
+
+/* containers */
+
+.container-fluid {
+	padding: 5% 15%;
+}
+
+.purple-section {
+	background-color: #f6cfc2;
+}
+
+.white-section {
+	background-color: white;
+}
+
+/* header */
+
+#main-header .container-fluid {
+	padding: 3% 15% 0%;
+}
+
+.title-text {
+	font-weight: 800;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+.header-title {
+	padding-top: 4%;
+	text-align: left;
+}
+
+.order-btn {
+	margin: 2rem 0 3rem 0;
+	background-color: #f58242;
+	border: none;
+	font-size: 1.5rem;
+	color: white;
+}
+
+.order-btn:hover {
+	margin-top: 2rem 0 3rem 0;
+	background-color: #f59f70;
+	border: none;
+}
+
+.title-image {
+	width: 350px;
+	padding-bottom: 3rem;
+}
+
+/* navbar */
+
+#main-navbar .container-fluid {
+	padding: 0% 15% 3%;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+	margin: 1rem;
+	font-weight: 500;
+}
+
+.navbar-custom .navbar-brand {
+	color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: White;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+	color: gray;
+}
+
+.navbar-custom .navbar-toggler {
+	border: none;
+}
+
+/* Nutrition */
+.nutrition-box {
+	margin: 0;
+}
+
+.nutrition-item {
+	color: #3b3b3b;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	padding: 5%;
+}
+
+.nutrition-img {
+	margin: 2rem;
+}
+
+.nutrition-text {
+	font-size: 1.5rem;
+}
+
+/* flavors  */
+.carousel-inner .container-fluid {
+	padding: 8% 30%;
+}
+
+.flavor-title-mango {
+	font-family: "Sacramento", cursive;
+	color: black;
+	font-size: 4rem;
+	margin: 2rem auto 1rem;
+	color: #de8d47;
+}
+.flavor-title-strawberry {
+	font-family: "Sacramento", cursive;
+	color: black;
+	font-size: 4rem;
+	margin: 2rem auto 1rem;
+	color: #f56042;
+}
+
+.flavor-price {
+	font-size: 2rem;
+}
+
+.flavor-img {
+	float: right;
+	width: 40%;
+}
+
+.flavor-description {
+	text-align: left;
+	float: left;
+	width: 60;
+}
+
+.flavor-paragraph {
+	margin: 0rem;
+	color: white;
+}
+
+.order-btn-flavor {
+	margin-top: 1rem;
+	background-color: #f58242;
+	border: none;
+	font-size: 1rem;
+	color: white;
+}
+
+.order-btn-flavor:hover {
+	margin-top: 1rem;
+	background-color: #f59f70;
+	border: none;
+}
+
+/* forms */
+
+.forms {
+	background-color: #ebc886;
+}
+
+.contact-text {
+	color: white;
+	width: 80%;
+	font-size: 1.5rem;
+}
+
+.form-div {
+	text-align: left;
+	padding: 2rem;
+	margin-bottom: 2rem;
+	border-radius: 5%;
+}
+
+.contact-icon {
+	color: white;
+	text-align: center;
+	padding: 1rem;
+}
+
+.contact-title {
+	font-weight: 800;
+	font-size: rem;
+	line-height: 1.5;
+	margin-bottom: 0;
+}
+
+.contact-label {
+	color: white;
+	margin-top: 0;
+}
+
+.contact-info {
+	text-align: center;
+	padding: 2rem 2rem 2rem 0;
+}
+
+/* footer */
+
+.footer-div {
+	padding: 1rem;
+	color: black;
+}
+
+.footer-icon {
+	padding: 1rem;
+}
+
+@media (max-width: 1028px) {
+	.container-fluid {
+		padding: 7% 25%;
+	}
+
+	#main-navbar .container-fluid {
+		padding: 0% 20% 3%;
+	}
+
+	.header-title {
+		text-align: center;
+		padding-top: 3rem;
+	}
+	.title-image {
+		position: static;
+		padding: 4rem;
+		width: 100%;
+	}
+
+	.flavor-description {
+		text-align: center;
+		font-size: 1.5rem;
+		float: none;
+	}
+
+	.flavor-img {
+		float: none;
+		margin: 2rem;
+		width: 70%;
+	}
+
+	.form-div {
+		text-align: center;
+	}
+
+	.header-title {
+		text-align: center;
+		margin: auto;
+	}
+
+	.contact-text {
+		margin: auto;
+	}
+
+	.contact-info {
+		text-align: center;
+		padding: 1rem;
+		margin: auto;
+	}
+}
